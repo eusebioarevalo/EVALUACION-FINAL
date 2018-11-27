@@ -3,7 +3,22 @@ background: black;
 width: 90%;
 font-family: 'Dancing Script';
 margin-left: 5%;
+animation-name: slideInUp;
+animation-duration: 1s;
 }
+
+@-webkit-keyframes slideInUp {
+from {
+-webkit-transform: translate3d(0, 100%, 0);
+transform: translate3d(0, 100%, 0);
+visibility: visible;
+}
+to {
+-webkit-transform: translate3d(0, 0, 0);
+transform: translate3d(0, 0, 0);
+  }
+}
+
 header{
 background:#5b7989;
 color: white;
